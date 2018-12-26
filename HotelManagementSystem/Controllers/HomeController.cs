@@ -29,6 +29,17 @@ namespace HotelManagementSystem.Controllers
             return View();
         }
 
+        public IActionResult Rooms()
+        {
+            return View();
+        }
+
+        public IActionResult Gallery()
+        {
+            return View();
+        }
+        
+
         public IActionResult Privacy()
         {
             return View();
