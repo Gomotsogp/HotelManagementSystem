@@ -155,6 +155,6 @@ namespace HotelManagementSystem.Controllers
         private bool BookingExists(int id)
         {
             return _context.Booking.Any(e => e.Id == id);
-        }
+        }//testing 
     }
 }
